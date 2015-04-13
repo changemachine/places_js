@@ -6,7 +6,7 @@ $(document).ready(function(){
     var review = $('textarea#review').val();
     var trip = {placeName: placeName, season: season, review: review };
 
-    $('ul#place-list').append("<li><span class='place'>" + trip.placeName + "</span></li>");
+    $('ul#place-list').append("<li><h4><span class='place'>" + trip.placeName + "</span></h4></li>");
 
     $('.place').last().click(function() {
       $('#show-place').toggle();

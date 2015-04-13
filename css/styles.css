@@ -18,3 +18,12 @@ body::after {
   position: absolute;
   z-index: -1;
 }
+
+.place {
+  cursor: pointer;
+  color: teal;
+}
+
+.place:hover {
+  text-decoration: underline;
+}
