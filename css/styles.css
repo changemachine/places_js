@@ -1,3 +1,7 @@
+#show-place {
+  display: none;
+}
+
 body {
   background-color: lightgrey;
 }
