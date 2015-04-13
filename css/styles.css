@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+}
+
+body::after {
+  content: "";
+  background: url('http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/02/amenthes_planum_topography/12521046-8-eng-GB/Amenthes_Planum_topography.jpg');
+  background-size: 270% 110%;
+  opacity: .5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
