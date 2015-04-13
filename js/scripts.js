@@ -8,6 +8,13 @@ $(document).ready(function(){
 
     $('ul#place-list').append("<li><span class='place'>" + trip.placeName + "</span></li>");
 
+    $('.place').last().click(function() {
+      $('#show-place').toggle();
+      $('#show-place h2').text(trip.placeName);
+      $('.place-name').text(trip.placeName);
+      $('.season').text(trip.season);
+      $('.review').text(trip.review);
+    });
 
     $('#place-list').show();
     event.preventDefault();
